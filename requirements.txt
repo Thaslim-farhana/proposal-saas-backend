@@ -1,0 +1,27 @@
+Flask>=2.2
+Flask-SQLAlchemy>=3.0
+Flask-Migrate>=4.0
+Flask-Login>=0.6
+Flask-Mail>=0.9
+Flask-JWT-Extended>=4.4
+psycopg2-binary>=2.9   # or mysqlclient if using MySQL
+sqlalchemy>=1.4
+alembic>=1.10
+celery>=5.5
+redis>=4.5
+pdfkit>=1.0
+Jinja2>=3.1
+requests>=2.31
+python-dotenv>=1.0
+razorpay>=1.0.0
+boto3>=1.28   # if using S3/Spaces
+gunicorn>=20.1
+fastapi==0.100.0
+uvicorn==0.23.0
+gunicorn==21.2.0
+uvicorn[standard]==0.23.0
+python-dotenv==1.0.0
+pydantic==1.10.12
+psycopg[binary]==3.1.30      # if using PostgreSQL
+# add ORM libs if needed (SQLAlchemy, Tortoise, databases, etc.)
+
